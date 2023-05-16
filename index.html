@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task Manager</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <div class="taskmanager">
+      <h1>Task Manager</h1>
+      <input type="text" id="task-input" placeholder="Enter a task" />
+      <button id="add-btn">Add</button>
+      <ul id="task-list"></ul>
+      <button id="mark-as-complete">Mark as complete</button>
+      <button id="delete-marked-btn">Delete Marked</button>
+      <button id="delete-all-btn">Delete All</button>
+    </div>
+    <div class="completed-tasks">
+      <h2>Finished Tasks</h2>
+      <ul id="completed-tasked-list"></ul>
+    </div>
+    <script defer src="script.js"></script>
+  </body>
+</html>
