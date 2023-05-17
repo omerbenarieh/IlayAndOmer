@@ -4,15 +4,24 @@
   padding: 20px;
 }
 
-h1 {
+.tasks-container-title {
   text-align: center;
+  font-weight: normal;
   font-size: 60px;
   color: #333;
   padding-top: 50px;
-  font-family: sans-serif;
+  font-family: Arial;
 }
 
-input[type='text'] {
+.completed-tasks-container {
+  padding: 10px;
+  margin: 10px;
+  font-family: Arial;
+  font-weight: normal;
+  font-size: xx-large;
+}
+
+input[type="text"] {
   width: 95.5%;
   padding: 8px;
   margin-bottom: 10px;
@@ -21,7 +30,7 @@ input[type='text'] {
   outline: none;
 }
 
-button {
+.main-btns {
   display: block;
   width: 100%;
   padding: 10px;
@@ -35,7 +44,7 @@ button {
   transition: background-color 0.3s ease;
 }
 
-button:hover {
+.main-btns:hover {
   background-color: #45a049;
 }
 
@@ -76,8 +85,8 @@ li button {
   padding: 0;
 }
 
-.btns:hover {
-  background-color: #f0edd4;
+.btn-direction:hover {
+  background-color: #b0daff;
 }
 
 p {
@@ -93,4 +102,12 @@ p {
 
 #completed-tasked-list {
   display: inline-block;
+}
+
+.btn-delete:hover {
+  background-color: #f2b6a0;
+}
+
+.task:hover {
+  background-color: #f1f6f9;
 }

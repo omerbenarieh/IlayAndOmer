@@ -9,16 +9,16 @@
   </head>
   <body>
     <div class="taskmanager">
-      <h1>Task Manager</h1>
+      <h1 class="tasks-container-title">Task Manager</h1>
       <input type="text" id="task-input" placeholder="Enter a task" />
-      <button id="add-btn">Add</button>
+      <button id="add-btn" class="main-btns">Add</button>
       <ul id="task-list"></ul>
-      <button id="mark-as-complete">Mark as complete</button>
-      <button id="delete-marked-btn">Delete Marked</button>
-      <button id="delete-all-btn">Delete All</button>
+      <button id="mark-as-complete" class="main-btns">Finish Tasks</button>
+      <button id="delete-marked-btn" class="main-btns">Delete Marked</button>
+      <button id="delete-all-btn" class="main-btns">Delete All</button>
     </div>
     <div class="completed-tasks">
-      <h2>Finished Tasks</h2>
+      <h2 class="completed-tasks-container">Finished Tasks</h2>
       <ul id="completed-tasked-list"></ul>
     </div>
     <script defer src="script.js"></script>
